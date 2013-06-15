@@ -1,0 +1,27 @@
+{
+  "name": "CookieMonstr",
+  "description": "Manage cookies like a pro.",
+  "version": "1.0",
+
+  "default_locale": "en",
+
+  "permissions": [
+    "tabs",
+    "\u003Call_urls\u003E",
+    "cookies",
+    "contextMenus",
+    "unlimitedStorage",
+    "notifications",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts" : ["/lib/jquery-2.0.2.min.js"]
+  },
+
+  "manifest_version": 2
+}

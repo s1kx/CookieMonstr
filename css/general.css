@@ -1,0 +1,11 @@
+body {
+  min-width: 357px;
+  overflow-x: hidden;
+
+  font-family: Helvetica,Arial, sans serif;
+  color: black;
+}
+
+.importCookies .status {
+  display: inline-block;
+}
