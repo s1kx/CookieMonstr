@@ -3,8 +3,6 @@
   "description": "Manage cookies like a pro.",
   "version": "1.0",
 
-  "default_locale": "en",
-
   "permissions": [
     "tabs",
     "\u003Call_urls\u003E",
